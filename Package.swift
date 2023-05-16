@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "Lottie",
+  name: "lottie-spm",
   platforms: [.iOS("11.0"), .macOS("10.11"), .tvOS("11.0")],
   products: [.library(name: "Lottie", targets: ["Lottie", "_LottieStub"])],
   targets: [
