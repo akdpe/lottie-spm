@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
   name: "lottie-spm",
   platforms: [.iOS("11.0"), .macOS("10.11"), .tvOS("11.0")],
-  products: [.library(name: "Lottie", targets: ["Lottie", "_LottieStub"])],
+  products: [.library(name: "lottie-spm", targets: ["Lottie", "_LottieStub"])],
   targets: [
     .binaryTarget(
       name: "Lottie",
